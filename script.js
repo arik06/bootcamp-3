@@ -23,6 +23,8 @@ document.querySelector(".icon").src =
   document.querySelector(".temp").innerText = temp + "°C";
   document.querySelector(".humidity").innerText = humidity + "%";
   document.querySelector(".wind").innerText = "Wind speed" + speed + "km/h";
+  document.querySelector(".weather").classList.remove("loading")
+  document.body.style.backgroundImage = "url('https://imgs.search.brave.com/23njXgB74T4PPonLH5rTwwY8AGoB3-rs7lTDvFXIrYg/rs:fit:1200:1080:1/g:ce/aHR0cDovL2dldHdh/bGxwYXBlcnMuY29t/L3dhbGxwYXBlci9m/dWxsLzIvZi8zLzI1/Nzk5LmpwZw')";
 },
 search: function(){
     this.fetchWeather(document.querySelector(".search-bar").value);
