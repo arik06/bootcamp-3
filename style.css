@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-family: 'Roboto Slab', serif;
+    background-image: url('https://imgs.search.brave.com/23njXgB74T4PPonLH5rTwwY8AGoB3-rs7lTDvFXIrYg/rs:fit:1200:1080:1/g:ce/aHR0cDovL2dldHdh/bGxwYXBlcnMuY29t/L3dhbGxwYXBlci9m/dWxsLzIvZi8zLzI1/Nzk5LmpwZw');
+    background-repeat: no-repeat;
+    background-size:1920px ;
+}
+.card{
+    background: #eaeaea;
+    padding: 2em ;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+
+}
